@@ -26,6 +26,7 @@ body
     color: #181818;
     margin: 5%;
     padding: 15px;
+    display: flex;
 }
 .titre_secondaire
 {
