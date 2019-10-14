@@ -55,6 +55,10 @@ aside h2
 aside img
 {
     margin-right: 5px;
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
 }
 
 article i
