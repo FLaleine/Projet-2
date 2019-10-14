@@ -14,6 +14,10 @@ h1
 }
 
 /* Content (corps de la page) */
+section
+{
+    display: flex;   
+}
 
 body
 {
@@ -51,5 +55,10 @@ aside h2
 aside img
 {
     margin-right: 5px;
+}
+
+article i
+{
+    color:#FDD835;
 }
 /* Responsive design (adaptation a l'écran)*/
