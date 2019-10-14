@@ -1,14 +1,55 @@
 /* Typographie (Eléments principaux de la page) */
 
+
+
+/* Header (entête) */
+
+.titre_principal
+{
+  color: #FDD835  
+}
+h1
+{
+    color: black
+}
+
+/* Content (corps de la page) */
+
 body
 {
     background-color: #FFFFFF;
     font-family: 'Trebuchet MS', Arial, sans-serif;
     color: #181818;
+    margin: 5%;
+    padding: 15px;
+}
+.titre_secondaire
+{
+    text-decoration: underline;
+    text-decoration-color: #FDD835;
 }
 
-/* Header (entête) */
+aside
+{
+    background-color: #FDD835;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    margin: 5%;
+    padding: 15px;
+    flex: 1.2;
+    position: left;
+}
 
-/* Content (corps de la page) */
+aside h2
+{
+    color: #FDD835;
+    background-color: #212121;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    margin: 5%;
+    padding: 15px;
+}
 
+aside img
+{
+    margin-right: 5px;
+}
 /* Responsive design (adaptation a l'écran)*/
