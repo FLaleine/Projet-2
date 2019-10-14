@@ -66,3 +66,10 @@ aside img
     color:#FDD835;
 }
 /* Responsive design (adaptation a l'écran)*/
+@media all and (max-width: 1024px)
+{
+    #bloc_page
+    {
+        width: auto;
+    }
+}
