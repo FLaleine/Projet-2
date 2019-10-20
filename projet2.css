@@ -63,6 +63,12 @@ aside img
     object-fit: cover;
 }
 
+.black
+{
+    max-width: 100%;
+	height: auto;
+}
+
 .yellow
 {
     color:#FDD835;
