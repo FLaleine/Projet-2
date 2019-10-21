@@ -38,8 +38,7 @@ body
 }
 .titre_secondaire
 {
-    text-decoration: underline;
-    text-decoration-color: #FDD835;
+    border-bottom: 2px solid #FDD835;
 }
 
 aside
@@ -81,7 +80,9 @@ aside img
 .black
 {
     max-width: 100%;
-	height: auto;
+    height: auto;
+    font-size: 50px;
+    margin: 20px;
 }
 
 .yellow
