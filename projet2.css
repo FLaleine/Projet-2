@@ -51,6 +51,10 @@ aside
     position: left;
 }
 
+aside #photo_cv {
+    text-align: center;
+}
+
 aside h2
 {
     color: #FDD835;
