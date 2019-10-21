@@ -20,6 +20,13 @@ section
     flex: 2;
 }
 
+article
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 350px;
+}
 body
 {
     background-color: #FFFFFF;
