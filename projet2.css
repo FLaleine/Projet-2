@@ -16,9 +16,17 @@ h1
 /* Content (corps de la page) */
 section
 {
-    display: flex;   
+    display: flex;  
+    flex: 2;
 }
 
+article
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 350px;
+}
 body
 {
     background-color: #FFFFFF;
@@ -40,7 +48,7 @@ aside
     font-family: 'Trebuchet MS', Arial, sans-serif;
     margin: 5%;
     padding: 15px;
-    flex: 1.2;
+    flex: 1,2;
     position: left;
 }
 
@@ -60,6 +68,12 @@ aside img
     height: 300px;
     width: 300px;
     object-fit: cover;
+}
+
+.black
+{
+    max-width: 100%;
+	height: auto;
 }
 
 .yellow
