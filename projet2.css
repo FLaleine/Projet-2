@@ -65,6 +65,10 @@ aside h2
     text-align: center;
 }
 
+aside p {
+    padding: 0 20px;
+}
+
 aside img
 {
     margin-right: 5px;
