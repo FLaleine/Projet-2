@@ -1,6 +1,20 @@
 /* Typographie (Eléments principaux de la page) */
 
+h1
+{
+    color: black
+}
+/* Global */
 
+body
+{
+    background-color: #FFFFFF;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    color: #181818;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
 
 /* Header (entête) */
 
@@ -8,12 +22,16 @@
 {
   color: #FDD835  
 }
-h1
-{
-    color: black
-}
+
 
 /* Content (corps de la page) */
+
+#bloc_page
+{
+    padding: 60px;
+    width: 100%;
+}
+
 section
 {
     display: flex;  
@@ -25,21 +43,32 @@ article
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 350px;
 }
-body
+
+.yellow
 {
-    background-color: #FFFFFF;
-    font-family: 'Trebuchet MS', Arial, sans-serif;
-    color: #181818;
-    margin: 0;
-    padding: 0;
-    display: flex;
+    color:#FDD835;
 }
+
+.ligne_cv
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.ligne_cv h3
+{
+    margin-top: 0;
+}
+
+
 .titre_secondaire
 {
     border-bottom: 2px solid #FDD835;
 }
+
+/* aside */
 
 aside
 {
@@ -85,10 +114,7 @@ aside img
     margin: 20px;
 }
 
-.yellow
-{
-    color:#FDD835;
-}
+
 /* Responsive design (adaptation a l'écran)*/
 @media all and (max-width: 1024px)
 {
