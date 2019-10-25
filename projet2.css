@@ -62,6 +62,10 @@ article
     margin-top: 0;
 }
 
+.ligne_cv p
+{
+    font-size: smaller;  
+}
 
 .titre_secondaire
 {
