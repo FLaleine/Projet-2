@@ -38,6 +38,11 @@ section
     flex: 2;
 }
 
+#conteneur
+{
+    width: 60%;
+}
+
 article
 {
     display: flex;
@@ -62,11 +67,15 @@ article
     margin-top: 0;
 }
 
-.ligne_cv p
+.ligne_cv_content p
 {
     font-size: smaller;  
 }
 
+.ligne_cv_content
+{
+   width: 25em;
+}
 .titre_secondaire
 {
     border-bottom: 2px solid #FDD835;
