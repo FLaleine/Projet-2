@@ -20,7 +20,7 @@ body
 
 .titre_principal
 {
-  color: #FDD835  
+  color: #FFCA28;  
 }
 
 
@@ -52,7 +52,7 @@ article
 
 .yellow
 {
-    color:#FDD835;
+    color:#FFCA28;
 }
 
 .ligne_cv
@@ -78,27 +78,32 @@ article
 }
 .titre_secondaire
 {
-    border-bottom: 2px solid #FDD835;
+    border-bottom: 2px solid #FFCA28;
 }
 
 /* aside */
 
 aside
 {
-    background-color: #FDD835;
+    background-color: #FFCA28;
     font-family: 'Trebuchet MS', Arial, sans-serif;
     padding-top: 15px;
     flex: 1,2;
     position: left;
 }
 
-aside #photo_cv {
+aside #photo_cv 
+{
     text-align: center;
 }
 
+aside #photo_cv img
+{
+    box-shadow: 2px 2px 6px black;
+}
 aside h2
 {
-    color: #FDD835;
+    color: #FFCA28;
     background-color: #212121;
     font-family: 'Trebuchet MS', Arial, sans-serif;
     padding: 15px;
