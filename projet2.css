@@ -136,8 +136,8 @@ aside img
 /* Responsive design (adaptation a l'écran)*/
 @media all and (max-width: 1024px)
 {
-    #bloc_page
+    body
     {
-        width: auto;
+        flex-direction: column-reverse;
     }
 }
