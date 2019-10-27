@@ -140,4 +140,9 @@ aside img
     {
         flex-direction: column-reverse;
     }
+
+    .ligne_cv
+    {
+        flex-direction: column;
+    }
 }
