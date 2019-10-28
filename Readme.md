@@ -1,6 +1,9 @@
-echo "# Projet-2" >> README.md 
-git init 
-git ajouter README.md 
-git commit -m "premier commit" 
-git distant ajouter origine https://github.com/FLaleine/Projet-2.git
- git push -u maître d'origine
+# Projet 2 CV responsive
+
+Un site responsive représentant mes compétences.
+
+Codé en HTML5 et CSS3 dans le cadre du parcours GEN Prep'Web d'**Openclassrooms**.
+
+url: [https://flaleine.github.io/Projet-2/projet2.html](https://flaleine.github.io/Projet-2/projet2.html)
+
+Réalisé avec Fontawesome et sur VisualStudioCode
