@@ -18,11 +18,15 @@ body
 
 /* Header (entête) */
 
-.titre_principal
+#titre_principal
 {
-  color: #FFCA28;  
+    display: flex;
 }
 
+#titre_principal h1
+{
+    margin-right: 10px;
+}
 
 /* Content (corps de la page) */
 
