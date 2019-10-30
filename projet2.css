@@ -18,11 +18,15 @@ body
 
 /* Header (entête) */
 
-.titre_principal
+#titre_principal
 {
-  color: #FFCA28;  
+    display: flex;
 }
 
+#titre_principal h1
+{
+    margin-right: 10px;
+}
 
 /* Content (corps de la page) */
 
@@ -30,6 +34,7 @@ body
 {
     padding: 60px;
     width: 100%;
+    box-sizing: border-box;
 }
 
 section
@@ -144,5 +149,19 @@ aside img
     .ligne_cv
     {
         flex-direction: column;
+    }
+}
+
+/* Responsive design : petits écrans*/
+@media all and (max-width: 550px)
+{
+    #titre_principal
+    {
+        flex-direction: column;
+    }
+
+    #bloc_page
+    {
+        padding: 20px;
     }
 }
