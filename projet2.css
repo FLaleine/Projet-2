@@ -1,13 +1,12 @@
 /* Typographie (Eléments principaux de la page) */
 
-h1
-{
+h1 {
     color: black
 }
+
 /* Global */
 
-body
-{
+body {
     background-color: #FFFFFF;
     font-family: 'Trebuchet MS', Arial, sans-serif;
     color: #181818;
@@ -18,98 +17,83 @@ body
 
 /* Header (entête) */
 
-#titre_principal
-{
+#titre_principal {
     display: flex;
 }
 
-#titre_principal h1
-{
+#titre_principal h1 {
     margin-right: 10px;
 }
 
 /* Content (corps de la page) */
 
-#bloc_page
-{
+#bloc_page {
     padding: 60px;
     width: 100%;
     box-sizing: border-box;
 }
 
-section
-{
-    display: flex;  
+section {
+    display: flex;
     flex: 2;
 }
 
-#conteneur
-{
-    width: 60%;
+#conteneur {
+    width: 100%;
 }
 
-article
-{
+article {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.yellow
-{
-    color:#FFCA28;
+.yellow {
+    color: #FFCA28;
 }
 
-.ligne_cv
-{
+.ligne_cv {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.ligne_cv h3
-{
+.ligne_cv h3 {
     margin-top: 0;
 }
 
-.ligne_cv_content p
-{
-    font-size: smaller;  
+.ligne_cv_content p {
+    font-size: smaller;
 }
 
-.ligne_cv_content
-{
-   width: 25em;
+.ligne_cv_content {
+    width: 40em;
 }
-.titre_secondaire
-{
+
+.titre_secondaire {
     border-bottom: 2px solid #FFCA28;
 }
 
-/* aside */
+/* Presentation (partie de gauche) */
 
-aside
-{
+#presentation {
     background-color: #FFCA28;
     font-family: 'Trebuchet MS', Arial, sans-serif;
     padding-top: 15px;
-    flex: 1,2;
-    position: left;
+    text-align: center;
 }
 
-aside #photo_cv 
-{
+#presentation #photo_cv {
     text-align: center;
     display: block;
     margin: 0 auto;
 }
 
-aside #photo_cv img
-{
+#presentation #photo_cv img {
     box-shadow: 2px 2px 6px black;
 }
-aside h2
-{
+
+#presentation h2 {
     color: #FFCA28;
     background-color: #212121;
     font-family: 'Trebuchet MS', Arial, sans-serif;
@@ -118,17 +102,15 @@ aside h2
     text-align: center;
 }
 
-aside p
-{
+#presentation p {
     padding: 0 20px;
 }
 
-aside address
-{
-padding: 0 20px;
+#presentation address {
+    padding: 0 20px;
 }
-aside img
-{
+
+#presentation img {
     margin-right: 5px;
     border-radius: 50%;
     height: 300px;
@@ -136,8 +118,7 @@ aside img
     object-fit: cover;
 }
 
-.black
-{
+.black {
     max-width: 100%;
     height: auto;
     font-size: 50px;
@@ -146,29 +127,118 @@ aside img
 
 
 /* Responsive design (adaptation a l'écran)*/
-@media all and (max-width: 1024px)
-{
-    body
-    {
-        flex-direction: column-reverse;
+@media all and (max-width: 1024px) {
+    body {
+        flex-direction: column;
     }
 
-    .ligne_cv
-    {
-        flex-direction: column;
+    .ligne_cv {
+        flex-direction: row;
+    }
+
+    .ligne_cv {
+        flex-direction: row;
+    }
+
+    .ligne_cv_content {
+        width: 20em;
+    }
+
+    .ligne_cv_info {
+        width: 200px;
     }
 }
 
-/* Responsive design : petits écrans*/
-@media all and (max-width: 550px)
-{
-    #titre_principal
-    {
+@media all and (max-width: 740px) {
+    body {
         flex-direction: column;
     }
 
-    #bloc_page
-    {
+    .ligne_cv {
+        flex-direction: row;
+    }
+
+    .ligne_cv {
+        flex-direction: row;
+    }
+
+    .ligne_cv_content {
+        width: 20em;
+    }
+
+    .ligne_cv_info {
+        width: 200px;
+    }
+}
+
+
+/* Responsive design : petits écrans*/
+@media all and (max-width: 550px) {
+    #titre_principal {
+        flex-direction: column;
+    }
+
+    #bloc_page {
         padding: 20px;
+    }
+
+    .ligne_cv {
+        flex-direction: row;
+    }
+
+    .ligne_cv_content {
+        width: 20em;
+    }
+
+    .ligne_cv_info {
+        width: 200px;
+    }
+}
+
+@media all and (max-width: 480px) {
+    #titre_principal {
+        flex-direction: column;
+    }
+
+    #bloc_page {
+        padding: 20px;
+    }
+
+    .ligne_cv {
+        flex-direction: row;
+    }
+
+    .ligne_cv_content {
+        width: 20em;
+    }
+
+    .ligne_cv_info {
+        width: 200px;
+    }
+}
+
+@media all and (max-width: 320px) {
+    #titre_principal {
+        flex-direction: column;
+    }
+
+    #bloc_page {
+        padding: 20px;
+    }
+
+    .ligne_cv {
+        flex-direction: row;
+    }
+
+    .ligne_cv_content {
+        width: 20em;
+    }
+
+    .ligne_cv_info {
+        width: 250px;
+    }
+
+    .black {
+        margin: 10px;
     }
 }
